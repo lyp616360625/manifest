@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+    <remote  name="githuborigin"
+           fetch="ssh://git@github.com/yos-two/" />
+
+    <default revision="refs/tags/tag_3.0_171221"
+           remote="githuborigin"
+           sync-j="4" />
+	<project path="vendor" name="mt8163-vendor" />
+	<project path="external" name="mt8163-external" />
+	<project path="prebuilts" name="mt8163-prebuilts" />
+	<project path="trusty" name="mt8163-trusty" />
+	<project path="tools" name="mt8163-tools" />
+	<project path="system" name="mt8163-system" />
+	<project path="sdk" name="mt8163-sdk" />
+	<project path="platform_testing" name="mt8163-platform_testing" />
+	<project path="pdk" name="mt8163-pdk" />
+	<project path="ndk" name="mt8163-ndk" />
+	<project path="libnativehelper" name="mt8163-libnativehelper" />
+	<project path="libcore" name="mt8163-libcore" />
+	<project path="hardware" name="mt8163-hardware" />
+	<project path="docs" name="mt8163-docs" />
+	<project path="development" name="mt8163-development" />
+	<project path="developers" name="mt8163-developers" />
+	<project path="dalvik" name="mt8163-dalvik" />
+	<project path="cts" name="mt8163-cts" />
+ 	<project path="build" name="mt8163-build" >
+    		<copyfile src="core/root.mk" dest="Makefile" />
+    		<copyfile src="core/copyfile.sh" dest="copyfile.sh" />
+    </project>
+	<project path="bootable" name="mt8163-bootable" />
+    <project path="bionic" name="mt8163-bionic" />
+    <project path="art" name="mt8163-art"  />
+    <project path="abi" name="mt8163-abi" />
+   <project path="device" name="mt8163-device" />
+  <project path="frameworks/av" name="mt8163-frameworks-av" />
+  <project path="frameworks/base" name="mt8163-frameworks-base" />
+  <project path="frameworks/base/docs" name="mt8163-frameworks-base-docs" />
+  <project path="frameworks/compile" name="mt8163-frameworks-compile" />
+  <project path="frameworks/ex" name="mt8163-frameworks-ex" />
+  <project path="frameworks/minikin" name="mt8163-frameworks-minikin" />
+  <project path="frameworks/ml" name="mt8163-frameworks-ml" />
+  <project path="frameworks/multidex" name="mt8163-frameworks-multidex" />
+  <project path="frameworks/native" name="mt8163-frameworks-native" />
+  <project path="frameworks/opt" name="mt8163-frameworks-opt" />
+  <project path="frameworks/rs" name="mt8163-frameworks-rs" />
+  <project path="frameworks/support" name="mt8163-frameworks-support" />
+  <project path="frameworks/volley" name="mt8163-frameworks-volley" />
+  <project path="frameworks/webview" name="mt8163-frameworks-webview" />
+  <project path="frameworks/wilhelm" name="mt8163-frameworks-wilhelm" /> 
+  <project path="kernel-3.18" name="mt8163-kernel-3.18" />
+  <project path="packages/apps/AdupsFotaApp" name="mt8163-packages-apps-AdupsFotaApp" />
+  <project path="packages/apps/BasicSmsReceiver" name="mt8163-packages-apps-BasicSmsReceiver" />
+  <project path="packages/apps/Bluetooth" name="mt8163-packages-apps-Bluetooth" />
+  <project path="packages/apps/Browser" name="mt8163-packages-apps-Browser" />
+  <project path="packages/apps/Calculator" name="mt8163-packages-apps-Calculator" />
+  <project path="packages/apps/Calendar" name="mt8163-packages-apps-Calendar" />
+  <project path="packages/apps/Camera" name="mt8163-packages-apps-Camera" />
+  <project path="packages/apps/Camera2" name="mt8163-packages-apps-Camera2" />
+  <project path="packages/apps/CarrierConfig" name="mt8163-packages-apps-CarrierConfig" />
+  <project path="packages/apps/CellBroadcastReceiver" name="mt8163-packages-apps-CellBroadcastReceiver" />
+  <project path="packages/apps/CertInstaller" name="mt8163-packages-apps-CertInstaller" />
+  <project path="packages/apps/Contacts" name="mt8163-packages-apps-Contacts" />
+  <project path="packages/apps/ContactsCommon" name="mt8163-packages-apps-ContactsCommon" />
+  <project path="packages/apps/DeskClock" name="mt8163-packages-apps-DeskClock" />
+  <project path="packages/apps/Dialer" name="mt8163-packages-apps-Dialer" />
+  <project path="packages/apps/Email" name="mt8163-packages-apps-Email" />
+  <project path="packages/apps/ExactCalculator" name="mt8163-packages-apps-ExactCalculator" />
+  <project path="packages/apps/Exchange" name="mt8163-packages-apps-Exchange" />
+  <project path="packages/apps/FMRadio" name="mt8163-packages-apps-FMRadio" />
+  <project path="packages/apps/FpgaLoadTool" name="mt8163-packages-apps-FpgaLoadTool" />
+  <project path="packages/apps/Gallery" name="mt8163-packages-apps-Gallery" />
+  <project path="packages/apps/Gallery2" name="mt8163-packages-apps-Gallery2" />
+  <project path="packages/apps/HTMLViewer" name="mt8163-packages-apps-HTMLViewer" />
+  <project path="packages/apps/InCallUI" name="mt8163-packages-apps-InCallUI" />
+  <project path="packages/apps/KeyChain" name="mt8163-packages-apps-KeyChain" />
+  <project path="packages/apps/Launcher2" name="mt8163-packages-apps-Launcher2" />
+  <project path="packages/apps/Launcher3" name="mt8163-packages-apps-Launcher3" />
+  <project path="packages/apps/LegacyCamera" name="mt8163-packages-apps-LegacyCamera" />
+  <project path="packages/apps/ManagedProvisioning" name="mt8163-packages-apps-ManagedProvisioning" />
+  <project path="packages/apps/Messaging" name="mt8163-packages-apps-Messaging" />
+  <project path="packages/apps/MiramemsGsensorTool" name="mt8163-packages-apps-MiramemsGsensorTool" />
+  <project path="packages/apps/Music" name="mt8163-packages-apps-Music" />
+  <project path="packages/apps/MusicFX" name="mt8163-packages-apps-MusicFX" />
+  <project path="packages/apps/Nfc" name="mt8163-packages-apps-Nfc" />
+  <project path="packages/apps/OneTimeInitializer" name="mt8163-packages-apps-OneTimeInitializer" />
+  <project path="packages/apps/PackageInstaller" name="mt8163-packages-apps-PackageInstaller" />
+  <project path="packages/apps/PhoneCommon" name="mt8163-packages-apps-PhoneCommon" />
+  <project path="packages/apps/Protips" name="mt8163-packages-apps-Protips" />
+  <project path="packages/apps/Provision" name="mt8163-packages-apps-Provision" />
+  <project path="packages/apps/QuickSearchBox" name="mt8163-packages-apps-QuickSearchBox" />
+  <project path="packages/apps/Settings" name="mt8163-packages-apps-Settings" />
+  <project path="packages/apps/SoundRecorder" name="mt8163-packages-apps-SoundRecorder" />
+  <project path="packages/apps/SpeechRecorder" name="mt8163-packages-apps-SpeechRecorder" />
+  <project path="packages/apps/SpareParts" name="mt8163-packages-apps-SpareParts" />
+  <project path="packages/apps/Stk" name="mt8163-packages-apps-Stk" />
+  <project path="packages/apps/Tag" name="mt8163-packages-apps-Tag"  />
+  <project path="packages/apps/TvSettings" name="mt8163-packages-apps-TvSettings" />
+  <project path="packages/apps/Terminal" name="mt8163-packages-apps-Terminal" />
+  <project path="packages/experimental" name="mt8163-packages-experimental"  />
+  <project path="packages/inputmethods" name="mt8163-packages-inputmethods" />
+  <project path="packages/providers" name="mt8163-packages-providers" />
+  <project path="packages/screensavers" name="mt8163-packages-screensavers" />
+  <project path="packages/services" name="mt8163-packages-services" />
+  <project path="packages/wallpapers" name="mt8163-packages-wallpapers" />  
+  <project path="yongyida" name="mt8163-yongyida" />
+</manifest>
